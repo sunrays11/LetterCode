@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, Image, Text, TouchableHighlight } from "react-native";
 
-import { COLORS, SIZES, SHADOWS, assets, NFTData, FONTS } from "../constants";
+import { COLORS, SIZES, SHADOWS, assets, FONTS } from "../constants";
 import { SubInfo, EthPrice, NFTTitle } from "./SubInfo";
 import { RectButton, CircleButton } from "./Button";
 import { Alphabets } from "../type";

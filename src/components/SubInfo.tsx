@@ -41,7 +41,7 @@ export const EthPrice = (props: PProps) => {
   return (
     <View style={{ flexDirection: "row", alignItems: "center" }}>
       <Image
-        source={assets.eth}
+        source={assets.ascii}
         resizeMode="contain"
        
         style={{width: 20, height: 20, marginRight: 2}}
@@ -81,11 +81,11 @@ const ImageCmp = (props: IProps) => {
 export const People = () => {
   return (
     <View style={{ flexDirection: "row" }}>
-      {[assets.person02, assets.person03, assets.person04].map(
+      {/* {[assets.person02, assets.person03, assets.person04].map(
         (imgUrl, index) => (
           <ImageCmp imgUrl={imgUrl} index={index} key={`People-${index}`} />
         )
-      )}
+      )} */}
     </View>
   );
 };
